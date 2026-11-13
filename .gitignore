@@ -1,0 +1,34 @@
+# قاعدة البيانات (بيانات المحل الحقيقية)
+*.db
+*.sqlite
+*.sqlite3
+
+# النسخ الاحتياطية
+backups/
+
+# بيانات المستخدمين والإعدادات
+*.env
+.env
+.env.*
+
+# ملفات Python المؤقتة
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ملفات البناء
+dist/
+build/
+*.spec.bak
+
+# ملفات النظام
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# السجلات
+*.log
+
+# ملفات صور المنتجات (تُضاف يدوياً لاحقاً)
+assets/images/
